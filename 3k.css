@@ -1,0 +1,375 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding-top: 60px; /* Adjust value to match your header's height */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Replace with your header color */
+    z-index: 10; /* Ensure header stays above other content */
+    padding: 8px;
+    box-shadow: #666;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color:#1B2C51;
+    font-weight: bold;
+}
+
+nav :hover{
+    color: #007bff;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo-image {
+    text-align: right;
+}
+
+.logo-image img {
+    width: 200px;
+    height: 200px;
+}
+
+.top-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.top-header .location, .top-header .working-hours, .top-header .contact-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-header i {
+    color: #3367d6; /* Warna ikon */
+}
+
+/* Tambahkan styling lainnya sesuai kebutuhan */
+
+.aboutt{
+    color: #007bff;
+}
+
+/* poli */
+
+.poli-umum {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+.poli-umum h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.poli-umum p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.staff-list h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.staff-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.staff-list ul li {
+    font-size: 16px;
+    color: #333;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+/* dropdown */
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    color: #000;    
+
+
+}
+.dropdown-content :hover{
+    color:#007bff;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content li {
+    /* padding: 8px 16px; */
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1B2C51;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 9px;
+}
+
+.footer-bottom p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Section styling */
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    animation: gradientBG 8s infinite alternate;
+}
+
+.content-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.content-box h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.content-box ol {
+    list-style: decimal;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.content-box ol li {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #333;
+    position: relative;
+    padding-left: 30px;
+}
+
+.content-box ol li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #ff6b6b;
+    animation: fadeInCheck 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInCheck {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes gradientBG {
+    0% {
+        background: linear-gradient(135deg, #afcfff, #a8a0ff);
+    }
+    100% {
+        background: linear-gradient(135deg, #a0a3ff, #afd3ff);
+    }
+}
